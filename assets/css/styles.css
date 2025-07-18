@@ -510,10 +510,7 @@ body.light-theme {
   row-gap: 1rem;
 }
 
-.skills__data {
-  display: flex;
-  column-gap: 0.5rem;
-}
+
 
 .skills .bxs-badge-check {
   font-size: 1rem;
@@ -922,6 +919,12 @@ body.light-theme {
     padding: 1rem 1.5rem;
   }
 
+.skills__content {
+  width: 245px;
+}
+
+
+
   .home__button {
     flex-direction: column;
   }
@@ -932,7 +935,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 130px;
+    width: 149px;
   }
 
   .about__info {
@@ -984,6 +987,12 @@ body.light-theme {
     right: 0;
     margin: 0 auto;
   }
+
+
+.skills__data {
+  display: flex;
+  column-gap: 0.5rem;
+}
 
   .about__info {
     grid-template-columns: repeat(3, 180px);
@@ -1104,6 +1113,11 @@ body.light-theme {
   .nav {
     height: calc(var(--header-height) + 1rem);
   }
+
+  .skills__data {
+  display: flex;
+  column-gap: 0.5rem;
+}
 
   .home__handle {
     width: 290px;
