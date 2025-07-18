@@ -328,9 +328,9 @@ body.light-theme {
   color: var(--first-color);
 }
 
-.home__img {
+/* .home__img {
   width: 160px;
-}
+} */
 
 .home__handle {
   justify-self: center;
